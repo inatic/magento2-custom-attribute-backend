@@ -18,7 +18,7 @@ class InstallData implements InstallDataInterface
     /**
      * Attribute Code of the Custom Attribute
      */
-    const CUSTOM_ATTRIBUTE_CODE = 'custom';
+    const CUSTOM_ATTRIBUTE_CODE = 'mobile';
 
     /**
      * @var EavSetup
@@ -51,12 +51,12 @@ class InstallData implements InstallDataInterface
            AddressMetadataInterface::ENTITY_TYPE_ADDRESS,
             self::CUSTOM_ATTRIBUTE_CODE,
             [
-                'label' => 'Custom',
+                'label' => 'Mobile Phone Number',
                 'input' => 'text',
                 'visible' => true,
                 'required' => false,
-                'position' => 150,
-                'sort_order' => 150,
+                'position' => 121,
+                'sort_order' => 121,
                 'system' => false
             ]
         );
